@@ -1,4 +1,5 @@
 import React from "react"
+import "./styles.css"
 
 export function TodoItem({todoText, handleDelete, index}) {
 
@@ -7,7 +8,7 @@ export function TodoItem({todoText, handleDelete, index}) {
     }
 
     return (
-        <div>
+        <div className="todo-wrapper">
           <p>{todoText}</p>
           <button onClick={handleButtonClick}>Remove</button>
         </div>
