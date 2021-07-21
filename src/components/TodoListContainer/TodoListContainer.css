@@ -1,0 +1,39 @@
+.container-wrapper {
+    background-color: rgb(130, 238, 177) ;
+    margin: 48px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-wrapper h1 {
+    color: rgb(67, 64, 64);
+    font-size: 48px;
+}
+
+.container-wrapper form {
+    display: flex;
+    align-items: center;
+}
+
+.container-wrapper input {
+    background-color: rgba(130, 238, 177);
+    border: 1px rgb(67, 64, 64) solid;
+    border-radius: 4px;
+    height: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    width: 280px;
+    margin: 0 16px;
+}
+
+.todo-item-wrapper {
+    width:100%;
+    margin:48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

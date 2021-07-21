@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import "./TodoListContainer.css"
 import {TodoItem} from '../TodoItem/TodoItem'
 
 export function TodoListContainer() {
@@ -21,13 +22,15 @@ export function TodoListContainer() {
     }
 
     return (
-        <div>
+        <div className="container-wrapper">
             <h1>To-Do List</h1>
             <form onSubmit={handleButtonClick}>
                 <input value={value} onChange={handleInputChange} />
                 <button>Add</button>
             </form>
-            {todoItems.map((todoText, index) => <TodoItem todoText={todoText} key={index} handleDelete={handleDelete} index={index}/>)}
+            <div className="todo-item-wrapper">
+                {todoItems.map((todoText, index) => <TodoItem todoText={todoText} key={index} handleDelete={handleDelete} index={index}/>)}
+            </div>
         </div>
     )
 }

@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(130, 238, 177);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(67, 64, 64);
+    border: 1px rgb(67, 64, 64) solid;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 12px;
+    width: 100px;
+    height: 48px;
+}
