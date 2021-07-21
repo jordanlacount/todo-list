@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.css"
+import "./TodoItem.css"
 
 export function TodoItem({todoText, handleDelete, index}) {
 
